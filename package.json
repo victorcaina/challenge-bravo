@@ -1,0 +1,25 @@
+{
+    "name": "challenge-bravo",
+    "version": "1.0.0",
+    "description": "challenge Bravo ",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon --exec 'src/server.js' --ignore __tests__"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/victorcaina/challenge-bravo.git"
+    },
+    "author": "Victor Caina <victor.caina@hotmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/victorcaina/challenge-bravo/issues"
+    },
+    "homepage": "https://github.com/victorcaina/challenge-bravo#readme",
+    "dependencies": {
+        "const": "^1.0.0",
+        "express": "^4.17.1",
+        "https": "^1.0.0",
+        "node-cache": "^5.0.2"
+    }
+}
